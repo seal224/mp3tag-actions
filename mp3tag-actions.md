@@ -1,5 +1,4 @@
 # mp3tag-actions
-Backup of my custom Mp3tag actions in case my computer breaks.
 
 ## Convert display artist/composer to artist/composer
 Replaces existing ARTIST/COMPOSER fields by DISPLAY ARTIST/DISPLAY COMPOSER if they exist.
