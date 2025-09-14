@@ -5,7 +5,7 @@ Backup of my custom Mp3tag actions in case my computer breaks.
 Replaces existing ARTIST/COMPOSER fields by DISPLAY ARTIST/DISPLAY COMPOSER if they exist.
 ```
 Format value "ARTIST": $if(%display artist%,%display artist%,%artist%)
-Format value "COMPOSER": Sif(%display composer%,%display composer%,%composer%)
+Format value "COMPOSER": $if(%display composer%,%display composer%,%composer%)
 Remove fields "DISPLAY ARTIST;DISPLAY COMPOSER"
 ```
 
