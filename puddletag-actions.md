@@ -1,6 +1,6 @@
 # puddletag-actions
 
-Replicating the actions in [mp3tag-actions](https://github.com/seal224/mp3tag-actions/blob/main/mp3tag-actions.md) with slightly adjusted commands. See there for explanations.
+Replicating the actions in [mp3tag-actions](https://github.com/seal224/tagging-actions/blob/main/mp3tag-actions.md) with slightly adjusted commands. See there for explanations.
 
 ## display artist/composer → artist/composer
 
