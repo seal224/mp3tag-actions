@@ -21,3 +21,11 @@ Split using separator artist, composer: sep=' ('
 Split using separator artist, composer: sep='('
 Replace artist, composer: ')' → '', Match Case: No, Words Only: No
 ```
+
+## Unsplit artist/composer
+
+```
+RegReplace composer, artist: RegExp '\\(?=.*\\)' with ''
+RegReplace composer, artist: RegExp '\\(?=.*\\)' with ', '
+RegReplace composer, artist: RegExp '\\(?!.*\\)' with ' & '
+```
